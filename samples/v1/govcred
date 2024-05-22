@@ -23,9 +23,10 @@
         "identifier": "schema:identifier",
         "image": {"@id": "http://schema.org/image", "@type": "@id"},
         "familyName": "schema:familyName",
-        "gender": "schema:gender",
         "givenName": "schema:givenName",
-        "taxID": "schema:taxID"
+        "taxID": "schema:taxID",
+        "email": "schema:email",
+        "address": "schema:address"
       }
     }
   }
