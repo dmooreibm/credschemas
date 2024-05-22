@@ -1,0 +1,33 @@
+
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "name": "http://schema.org/name",
+    "description": "http://schema.org/description",
+    "identifier": "http://schema.org/identifier",
+    "image": {"@id": "http://schema.org/image", "@type": "@id"},
+
+    "PermanentResidentCard": {
+      "@id": "https://w3id.org/citizenship#PermanentResidentCard",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "id": "@id",
+        "type": "@type",
+
+        "schema": "http://schema.org/",
+
+        "description": "schema:description",
+        "identifier": "schema:identifier",
+        "image": {"@id": "http://schema.org/image", "@type": "@id"},
+        "familyName": "schema:familyName",
+        "gender": "schema:gender",
+        "givenName": "schema:givenName",
+        "taxID": "schema:taxID"
+      }
+    }
+  }
+}
