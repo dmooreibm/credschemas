@@ -13,8 +13,8 @@
         "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
-        "@type": "@type",
-        
+        "@type": "@vocab",
+
         "description": {
           "@id": "gidc:description",
           "@type": "schema:description"
