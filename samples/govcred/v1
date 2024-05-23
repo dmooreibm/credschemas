@@ -12,7 +12,7 @@
         "@version": 1.1,
         "@protected": true,
 
-        "schema": "http://schema.org/",
+        "schema": "https://schema.org",
         "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
