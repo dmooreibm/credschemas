@@ -1,15 +1,13 @@
 {
   "@context": {
-    "@version": 1.1,
     "@protected": true,
 
     "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#",
-    "schema": "https://schema.org#",
+    "schema": "https://schema.org",
 
     "GovIdCard": {
       "@id": "gidc:GovIdCard",
       "@context": {
-        "@version": 1.1,
         "@protected": true,
 
         "id": "@id",
