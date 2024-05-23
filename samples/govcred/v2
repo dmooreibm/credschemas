@@ -15,8 +15,8 @@
 
         "id": "@id",
 
-        "description": {
-          "@id": "gidc2:description",
+        "desc": {
+          "@id": "gidc2:desc",
           "@type": "schema:description"
         },
         "identifier": {
