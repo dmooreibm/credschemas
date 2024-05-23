@@ -18,7 +18,7 @@
         "givenName": "schema:givenName",
         "taxID": "schema:taxID",
         "email": "schema:email",
-        "address": "schema:address"
+        "address": "gidc:address"
       }
     }
   }
