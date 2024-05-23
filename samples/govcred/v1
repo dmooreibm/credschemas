@@ -3,9 +3,6 @@
     "@version": 1.1,
     "@protected": true,
 
-    "id": "@id",
-    "type": "@type",
-
     "GovIdCard": {
       "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
       "@context": {
@@ -16,8 +13,6 @@
         "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
-        "type": "@type",
-
         "description": "schema:description",
         "identifier": "schema:identifier",
         "familyName": "schema:familyName",
