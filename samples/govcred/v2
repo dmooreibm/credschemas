@@ -11,36 +11,36 @@
         "@protected": true,
 
         "schema": "https://schema.org",
-        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v2#GovIdCard",
+        "gidc2": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v2#GovIdCard",
 
         "id": "@id",
 
         "description": {
-          "@id": "gidc:description",
+          "@id": "gidc2:description",
           "@type": "schema:description"
         },
         "identifier": {
-          "@id": "gidc:identifier",
+          "@id": "gidc2:identifier",
           "@type": "schema:identifier"
         },
         "familyName": {
-          "@id": "gidc:familyName",
+          "@id": "gidc2:familyName",
           "@type": "schema:familyName"
         },
         "givenName": {
-          "@id": "gidc:givenName",
+          "@id": "gidc2:givenName",
           "@type": "schema:givenName"
         },
         "taxID": {
-          "@id": "gidc:taxID",
+          "@id": "gidc2:taxID",
           "@type": "schema:taxID"
         },
         "email": {
-          "@id": "gidc:email",
+          "@id": "gidc2:email",
           "@type": "schema:email"
         },
         "address": {
-          "@id": "gidc:address",
+          "@id": "gidc2:address",
           "@type": "schema:address"
         }
       }
