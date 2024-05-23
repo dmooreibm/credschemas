@@ -2,6 +2,7 @@
   "@context": {
     "@version": 1.1,
     "@protected": true,
+    "@type": "@vocab",
 
     "GovIdCard": {
       "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
