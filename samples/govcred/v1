@@ -22,9 +22,9 @@
         "identifier": "schema:identifier",
         "familyName": "schema:familyName",
         "givenName": "schema:givenName",
-        "taxID": "schema:taxID",
-        "email": "schema:email",
-        "address": "schema:address"
+        "taxID": "schema:Text",
+        "email": "schema:Text",
+        "address": "schema:Text"
       }
     }
   }
