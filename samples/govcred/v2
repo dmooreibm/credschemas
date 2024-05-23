@@ -5,13 +5,13 @@
     "@vocab": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/vocab",
 
     "GovIdCard": {
-      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
+      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v2#GovIdCard",
       "@context": {
         "@version": 1.1,
         "@protected": true,
 
         "schema": "https://schema.org",
-        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
+        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v2#GovIdCard",
 
         "id": "@id",
 
