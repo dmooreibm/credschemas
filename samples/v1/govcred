@@ -1,25 +1,29 @@
 {
   "@context": {
+    "@version": 1.1,
     "@protected": true,
 
-    "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#",
-    "schema": "https://schema.org",
+    "id": "@id",
+    "type": "@type",
 
     "GovIdCard": {
-      "@id": "gidc:GovIdCard",
+      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#GovIdCard",
       "@context": {
         "@protected": true,
+
+        "schema": "https://schema.org",
+        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#GovIdCard",
 
         "id": "@id",
         "type": "@type",
 
-        "description": "schema:description",
-        "identifier": "schema:identifier",
-        "familyName": "schema:familyName",
-        "givenName": "schema:givenName",
-        "taxID": "schema:taxID",
-        "email": "schema:email",
-        "address": "gidc:address"
+        "description": {"@id": "gidc:description", "@type": "schema:description"},
+        "identifier": {"@id": "gidc:identifier", "@type": "schema:identifier"},
+        "familyName": {"@id": "gidc:familyName", "@type": "schema:familyName"},
+        "givenName": {"@id": "gidc:givenName", "@type": "schema:givenName"},
+        "taxID": {"@id": "gidc:taxID", "@type": "schema:taxID"},
+        "email": {"@id": "gidc:email", "@type": "schema:email"},
+        "address": {"@id": "gidc:address", "@type": "schema:address"}
       }
     }
   }
