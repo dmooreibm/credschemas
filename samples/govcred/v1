@@ -9,21 +9,22 @@
     "GovIdCard": {
       "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
       "@context": {
+        "@version": 1.1,
         "@protected": true,
 
-        "schema": "https://schema.org",
+        "schema": "http://schema.org/",
         "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
         "type": "@type",
 
-        "description": {"@id": "gidc:description", "@type": "schema:description"},
-        "identifier": {"@id": "gidc:identifier", "@type": "schema:identifier"},
-        "familyName": {"@id": "gidc:familyName", "@type": "schema:familyName"},
-        "givenName": {"@id": "gidc:givenName", "@type": "schema:givenName"},
-        "taxID": {"@id": "gidc:taxID", "@type": "schema:taxID"},
-        "email": {"@id": "gidc:email", "@type": "schema:email"},
-        "address": {"@id": "gidc:address", "@type": "schema:address"}
+        "description": "schema:description",
+        "identifier": "schema:identifier",
+        "familyName": "schema:familyName",
+        "givenName": "schema:givenName",
+        "taxID": "schema:taxID",
+        "email": "schema:email",
+        "address": "schema:address"
       }
     }
   }
