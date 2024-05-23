@@ -7,12 +7,12 @@
     "type": "@type",
 
     "GovIdCard": {
-      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#GovIdCard",
+      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
       "@context": {
         "@protected": true,
 
         "schema": "https://schema.org",
-        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#GovIdCard",
+        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
         "type": "@type",
