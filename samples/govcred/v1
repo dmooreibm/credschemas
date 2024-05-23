@@ -13,13 +13,36 @@
         "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
-        "description": "schema:description",
-        "identifier": "schema:identifier",
-        "familyName": "schema:familyName",
-        "givenName": "schema:givenName",
-        "taxID": "schema:Text",
-        "email": "schema:Text",
-        "address": "schema:Text"
+        "@type": "@type",
+        
+        "description": {
+          "@id": "gidc:description",
+          "@type": "schema:description"
+        },
+        "identifier": {
+          "@id": "gidc:identifier",
+          "@type": "schema:identifier"
+        },
+        "familyName": {
+          "@id": "gidc:familyName",
+          "@type": "schema:familyName"
+        },
+        "givenName": {
+          "@id": "gidc:givenName",
+          "@type": "schema:givenName"
+        },
+        "taxID": {
+          "@id": "gidc:taxID",
+          "@type": "schema:Text"
+        },
+        "email": {
+          "@id": "gidc:email",
+          "@type": "schema:Text"
+        },
+        "address": {
+          "@id": "gidc:address",
+          "@type": "schema:Text"
+        }
       }
     }
   }
