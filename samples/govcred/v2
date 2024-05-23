@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "schm": "http://schema.org/",
+    "GovIdCard": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v2#GovIdCard",
+    "givenName": {
+      "@id": "GovIdCard#givenName",
+      "@type": "schm:givenName"
+    },
+    "familyName": {
+      "@id": "GovIdCard#familyName",
+      "@type": "schm:familyName"
+    },
+    "taxID": {
+      "@id": "GovIdCard#taxID",
+      "@type": "schm:taxID"
+    },
+    "description": {
+      "@id": "GovIdCard#description",
+      "@type": "schm:description"
+    },
+    "identifier": {
+      "@id": "GovIdCard#identifier",
+      "@type": "schm:identifier"
+    },
+    "email": {
+      "@id": "GovIdCard#email",
+      "@type": "schm:email"
+    },
+    "address": {
+      "@id": "GovIdCard#address",
+      "@type": "schm:address"
+    }
+  }
+}
