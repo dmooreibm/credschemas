@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "@vocab": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/vocab",
+
+    "GovIdCard": {
+      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
+      "@context": {
+        "@version": 1.1,
+        "@protected": true,
+
+        "schema": "https://schema.org",
+        "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
+
+        "id": "@id",
+
+        "description": {
+          "@id": "gidc:description",
+          "@type": "schema:description"
+        },
+        "identifier": {
+          "@id": "gidc:identifier",
+          "@type": "schema:identifier"
+        },
+        "familyName": {
+          "@id": "gidc:familyName",
+          "@type": "schema:familyName"
+        },
+        "givenName": {
+          "@id": "gidc:givenName",
+          "@type": "schema:givenName"
+        },
+        "taxID": {
+          "@id": "gidc:taxID",
+          "@type": "schema:taxID"
+        },
+        "email": {
+          "@id": "gidc:email",
+          "@type": "schema:email"
+        },
+        "address": {
+          "@id": "gidc:address",
+          "@type": "schema:address"
+        }
+      }
+    }
+  }
+}
