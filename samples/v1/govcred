@@ -1,28 +1,24 @@
 {
   "@context": {
     "@version": 1.1,
-    "@protected": true,
-
-    "name": "http://schema.org/name",
-    "description": "http://schema.org/description",
-    "identifier": "http://schema.org/identifier",
+    "gidc": "https://example.org/examples#",
+    "schema": "http://schema.org/",
 
     "GovIdCard": {
       "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#GovIdCard",
       "@context": {
         "@version": 1.1,
-        "@protected": true,
 
         "id": "@id",
         "type": "@type",
 
-        "description": "http://schema.org/description",
-        "identifier": "http://schema.org/identifier",
-        "familyName": "http://schema.org/familyName",
-        "givenName": "http://schema.org/givenName",
-        "taxID": "http://schema.org/taxID",
-        "email": "http://schema.org/email",
-        "address": "http://schema.org/address"
+        "description": "schema:description",
+        "identifier": "schema:identifier",
+        "familyName": "schema:familyName",
+        "givenName": "schema:givenName",
+        "taxID": "schema:taxID",
+        "email": "schema:email",
+        "address": "schema:address"
       }
     }
   }
