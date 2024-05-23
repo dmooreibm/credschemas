@@ -1,11 +1,11 @@
 {
   "@context": {
     "@version": 1.1,
-    "gidc": "https://example.org/examples#",
+    "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#",
     "schema": "http://schema.org/",
 
     "GovIdCard": {
-      "@id": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/v1/govcred#GovIdCard",
+      "@id": "gidc:GovIdCard",
       "@context": {
         "@version": 1.1,
 
