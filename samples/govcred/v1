@@ -14,7 +14,6 @@
         "gidc": "https://raw.githubusercontent.com/dmooreibm/credschemas/main/samples/govcred/v1#GovIdCard",
 
         "id": "@id",
-        "@type": "@type",
 
         "description": {
           "@id": "gidc:description",
